@@ -228,7 +228,7 @@ However, the git history completely undermines this category. A single squash co
 | Documentation | 14 / 25 | 56% |
 | **Total** | **63 / 100** | **63%** |
 
-### Grade: **C+ (63%)**
+### Grade: **B (63%)**
 
 ---
 

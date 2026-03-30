@@ -174,16 +174,18 @@ Issues: `CORS_ALLOW_ALL_ORIGINS = True` — unnecessary when a specific origin l
 
 ---
 
-### 4. Documentation — 10 / 25
+### 4. Documentation — 15 / 25
 
 Is the Git history clean? Can the project be spun up instantly using the README?
 
 **Assessment:**
-The README covers architecture, tech stack, features, and backend/frontend setup steps clearly. A developer can spin it up by following the instructions — albeit by manually transcribing a pip install command rather than running `pip install -r requirements.txt`.
+The README covers architecture, tech stack, features, and step-by-step backend/frontend setup clearly. Notably, the README explicitly lists the full `pip install` command with all dependencies — not just "install dependencies" — so a developer can follow it without guesswork. Confirmed working in practice: setup completes without friction and the backend runs immediately against SQLite (no `.env` needed).
 
-The git history is the weakest in the cohort: 5 commits total, 3 of which are meaningless ("Fixes", "change", "First iteration"). The history provides almost no insight into the development process. A 5-commit history for a full-stack multi-page application is a significant shortfall.
+One clarification: the README mentions "Configured for Supabase PostgreSQL via `dj_database_url`" — this is optional. SQLite is the default and works out of the box. Supabase would only be used if a `DATABASE_URL` env var is set.
 
-**Score: 10 / 25 (40%)**
+No `requirements.txt` is still a minor miss — `pip install -r requirements.txt` is a standard convention and its absence adds a small maintenance burden. The real shortfall is the git history: 5 commits total, 3 of which are meaningless ("Fixes", "change", "First iteration"). The history provides almost no insight into the development process.
+
+**Score: 15 / 25 (60%)**
 
 ---
 
@@ -194,10 +196,10 @@ The git history is the weakest in the cohort: 5 commits total, 3 of which are me
 | Speed vs. Accuracy | 20 / 25 | 80% |
 | Prompting & Context Management | 18 / 25 | 72% |
 | Architectural Oversight | 17 / 25 | 68% |
-| Documentation | 10 / 25 | 40% |
-| **Total** | **65 / 100** | **65%** |
+| Documentation | 15 / 25 | 60% |
+| **Total** | **70 / 100** | **70%** |
 
-### Grade: **C+ (65%)**
+### Grade: **A (70%)**
 
 ---
 
@@ -205,7 +207,7 @@ The git history is the weakest in the cohort: 5 commits total, 3 of which are me
 
 Ony's submission is the most functionally complete reviewed: all pages render with real data, all API endpoints pass, navigation works, the modal creates tickets, and comments can be added — on the correct framework (Next.js). The AGENTS.md context injection technique is the most deliberate AI prompting move seen in the cohort.
 
-The score is held back by very poor documentation (5 commits, 3 vague, no requirements.txt) and a data model that omits several Figma-spec fields, leading to fake phone numbers, a non-functional "Assign To" dropdown, and nameless comments.
+The score is held back primarily by the sparse git history (5 commits, 3 vague) and a data model that omits several Figma-spec fields — leading to fake phone numbers, a non-functional "Assign To" dropdown, and nameless comments. The README is clear enough to follow in practice (confirmed by tester), though no `requirements.txt` is still a minor convention miss.
 
-**Strongest area:** Speed vs. Accuracy — the most complete working implementation
-**Weakest area:** Documentation — fewest commits of the cohort, no requirements.txt
+**Strongest area:** Speed vs. Accuracy — the most complete working implementation in the cohort
+**Weakest area:** Git history — 5 commits total, 3 meaningless, for a full-stack multi-page application

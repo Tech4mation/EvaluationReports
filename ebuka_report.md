@@ -177,7 +177,7 @@ Deductions:
 | Documentation | 19 / 25 | 76% |
 | **Total** | **64 / 100** | **64%** |
 
-### Grade: **C+ (64%)**
+### Grade: **B (64%)**
 
 ---
 

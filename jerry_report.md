@@ -220,6 +220,8 @@ The 20-commit history gives the best insight into development process. Most comm
 
 ### Grade: **D (54%)**
 
+> Grading scale: A = 70%+, B = 60–70%, C = 55–60%, D = 50–55%, E = 40–50%, F = <40%
+
 ---
 
 ## Summary

@@ -196,7 +196,7 @@ The git history is the worst in the cohort: a single commit for the entire proje
 | Documentation | 7 / 25 | 28% |
 | **Total** | **55 / 100** | **55%** |
 
-### Grade: **D (55%)**
+### Grade: **C (55%)**
 
 ---
 

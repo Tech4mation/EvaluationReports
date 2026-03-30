@@ -173,16 +173,16 @@ Deductions: no `requirements.txt`, ticket search input renders but never filters
 
 ---
 
-### 4. Documentation — 7 / 25
+### 4. Documentation — 13 / 25
 
 Is the Git history clean? Can the project be spun up instantly using the README?
 
 **Assessment:**
-The README covers setup steps clearly for both macOS/Linux and Windows, lists all API endpoints, explains the proxy pattern, documents `DJANGO_API_BASE` configuration, and includes a troubleshooting section. A developer can follow it without friction (minus having to manually type the pip install command).
+Varol splits documentation across two READMEs — one per project layer — which is a clean separation of concerns. The backend README covers prerequisites, venv setup for macOS and Windows, install, migrate, start server, all API endpoints, common errors, and a quick-start summary. The frontend README covers prerequisites, `npm install`, the proxy architecture (`DJANGO_API_BASE` env var), all npm scripts, a frontend-to-backend connectivity troubleshooting guide, and common port/connection errors. A developer can spin up both layers without friction from these docs alone.
 
-The git history is the worst in the cohort: a single commit for the entire project. There is no way to trace any aspect of the development process, understand what changed when, or see how the backend and frontend were built incrementally. A 1-commit history for a full-stack multi-page application with a proxy layer is a fundamental documentation failure.
+The single critical deduction is the git history: **1 commit** for the entire project. A 1-commit history for a full-stack application with a custom proxy layer gives zero visibility into the development process.
 
-**Score: 7 / 25 (28%)**
+**Score: 13 / 25 (52%)**
 
 ---
 
@@ -193,10 +193,10 @@ The git history is the worst in the cohort: a single commit for the entire proje
 | Speed vs. Accuracy | 18 / 25 | 72% |
 | Prompting & Context Management | 14 / 25 | 56% |
 | Architectural Oversight | 16 / 25 | 64% |
-| Documentation | 7 / 25 | 28% |
-| **Total** | **55 / 100** | **55%** |
+| Documentation | 13 / 25 | 52% |
+| **Total** | **61 / 100** | **61%** |
 
-### Grade: **C (55%)**
+### Grade: **B (61%)**
 
 ---
 
@@ -204,7 +204,7 @@ The git history is the worst in the cohort: a single commit for the entire proje
 
 Varol delivers a fully integrated submission where every screen loads real data and every action persists to the backend — one of only two candidates (alongside Ony) to achieve this. The Next.js API proxy pattern is the most architecturally inventive approach in the cohort, solving CORS at the design level rather than via middleware configuration.
 
-The submission is pulled down significantly by a single-commit history (no development visibility), no `requirements.txt`, a non-functional search input, and a UI that does not closely follow the Figma design system.
+The submission is pulled down by a single-commit history (no development visibility), no `requirements.txt`, a non-functional search input, and a UI that does not closely follow the Figma design system. The two separate READMEs (backend and frontend) are well-structured and genuinely useful.
 
 **Strongest area:** Speed vs. Accuracy — full API integration, data persists, correct framework
 **Weakest area:** Documentation — one commit for the entire project

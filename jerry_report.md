@@ -212,13 +212,13 @@ The 20-commit history gives the best insight into development process. Most comm
 
 | Rubric Dimension | Score | Percentage |
 |---|---|---|
-| Speed vs. Accuracy | 16 / 25 | 64% |
-| Prompting & Context Management | 17 / 25 | 68% |
-| Architectural Oversight | 14 / 25 | 56% |
+| Speed vs. Accuracy | 10 / 25 | 40% |
+| Prompting & Context Management | 12 / 25 | 48% |
+| Architectural Oversight | 13 / 25 | 52% |
 | Documentation | 19 / 25 | 76% |
-| **Total** | **66 / 100** | **66%** |
+| **Total** | **54 / 100** | **54%** |
 
-### Grade: **C+ (66%)**
+### Grade: **D (54%)**
 
 ---
 

@@ -241,24 +241,6 @@ Deductions: "Ticket Matrix" branding (README title, file watermarks, page metada
 
 ---
 
-## Merit Score (Before Late Penalty)
-
-| Category | Score |
-|---|---|
-| Speed vs Accuracy | 21 / 25 |
-| Prompting & Context Management | 22 / 25 |
-| Architectural Oversight | 22 / 25 |
-| Documentation | 23 / 25 |
-| **Subtotal** | **88 / 100** |
-
-On merit alone, this is the strongest submission in the cohort (Ony's merit score is 85/100).
-
-### Late Submission Adjustment: −16 points
-
-Emmanuel submitted 4 days after the cohort deadline. Penalty: **4 points × 4 days = 16 points**, deducted from the merit subtotal.
-
----
-
 ## Final Score
 
 | Category | Score |
@@ -267,7 +249,6 @@ Emmanuel submitted 4 days after the cohort deadline. Penalty: **4 points × 4 da
 | Prompting & Context Management | 22 / 25 |
 | Architectural Oversight | 22 / 25 |
 | Documentation | 23 / 25 |
-| **Merit Subtotal** | **88 / 100** |
 | **Late penalty (4 days × 4 pts)** | **−16** |
 | **Total** | **72 / 100** |
 | **Grade** | **A** |
